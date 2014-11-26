@@ -2,7 +2,7 @@
 
 cc.game.onStart = function(){
     //控制输出大小
-    cc.view.adjustViewPort(true);
+    //cc.view.adjustViewPort(true);
     cc.view.setDesignResolutionSize(480, 320, cc.ResolutionPolicy.SHOW_ALL);
     cc.view.resizeWithBrowserSize(true);
     //load resources

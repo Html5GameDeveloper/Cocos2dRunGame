@@ -4,7 +4,11 @@
 var Playscene = cc.Scene.extend({
     onEnter:function(){
         this._super();
+
         this.addChild(new BackGroundLayer());
+        this.addChild(new AnimationLayer());
+        this.addChild(new StatusLayer());
+
     }
 
 });
