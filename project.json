@@ -12,6 +12,8 @@
 
     "jsList" : [
         "src/resource.js",
-        "src/app.js"
+        "src/app.js",
+        "src/Playscene.js",
+        "src/BackGroundLayer.js"
     ]
 }
